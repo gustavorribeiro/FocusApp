@@ -19,6 +19,8 @@
 		EC39A10E2A1E656100AFCFE2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EC39A1102A1E656300AFCFE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC39A1132A1E656300AFCFE2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC39A11E2A1E6A0E00AFCFE2 /* chimeup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chimeup.mp3; sourceTree = "<group>"; };
+		EC39A11F2A1E6A0E00AFCFE2 /* success.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = success.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		EC39A10B2A1E656100AFCFE2 /* Focus */ = {
 			isa = PBXGroup;
 			children = (
+				EC39A1202A1E6A3800AFCFE2 /* Sounds */,
 				EC39A10C2A1E656100AFCFE2 /* FocusApp.swift */,
 				EC39A10E2A1E656100AFCFE2 /* ContentView.swift */,
 				EC39A1102A1E656300AFCFE2 /* Assets.xcassets */,
@@ -65,6 +68,15 @@
 				EC39A1132A1E656300AFCFE2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC39A1202A1E6A3800AFCFE2 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				EC39A11E2A1E6A0E00AFCFE2 /* chimeup.mp3 */,
+				EC39A11F2A1E6A0E00AFCFE2 /* success.m4a */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
