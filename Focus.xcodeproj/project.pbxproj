@@ -11,6 +11,8 @@
 		EC39A10F2A1E656100AFCFE2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC39A10E2A1E656100AFCFE2 /* ContentView.swift */; };
 		EC39A1112A1E656300AFCFE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC39A1102A1E656300AFCFE2 /* Assets.xcassets */; };
 		EC39A1142A1E656300AFCFE2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC39A1132A1E656300AFCFE2 /* Preview Assets.xcassets */; };
+		EC39A1262A1FACB800AFCFE2 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC39A1252A1FACB800AFCFE2 /* OnboardingView.swift */; };
+		EC39A1282A1FACD900AFCFE2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC39A1272A1FACD900AFCFE2 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		EC39A11E2A1E6A0E00AFCFE2 /* chimeup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chimeup.mp3; sourceTree = "<group>"; };
 		EC39A11F2A1E6A0E00AFCFE2 /* success.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = success.m4a; sourceTree = "<group>"; };
 		EC39A1242A1FAB9E00AFCFE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EC39A1252A1FACB800AFCFE2 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		EC39A1272A1FACD900AFCFE2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 			isa = PBXGroup;
 			children = (
 				EC39A10E2A1E656100AFCFE2 /* ContentView.swift */,
+				EC39A1252A1FACB800AFCFE2 /* OnboardingView.swift */,
+				EC39A1272A1FACD900AFCFE2 /* HomeView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -175,6 +181,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC39A1262A1FACB800AFCFE2 /* OnboardingView.swift in Sources */,
+				EC39A1282A1FACD900AFCFE2 /* HomeView.swift in Sources */,
 				EC39A10F2A1E656100AFCFE2 /* ContentView.swift in Sources */,
 				EC39A10D2A1E656100AFCFE2 /* FocusApp.swift in Sources */,
 			);
