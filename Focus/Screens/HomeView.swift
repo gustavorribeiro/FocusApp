@@ -13,8 +13,21 @@ struct HomeView: View {
     
     var body: some View {
         VStack(spacing: 20) {
-            Text("Home")
-                .font(.largeTitle)
+            //MARK: -HEADER
+            Spacer()
+            
+            Image("character-2")
+                .resizable()
+                .scaledToFit()
+                .padding()
+            
+            //MARK: -CENTER
+            Text("The time that leads to mastery is dependent on the intensity of our focus")
+                .font(.title3)
+                .fontWeight(.light)
+                .foregroundColor(.secondary)
+                .multilineTextAlignment(.center)
+                .padding()
             
             Button(action: {
                 isOnboardingViewActive = true
